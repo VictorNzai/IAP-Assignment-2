@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    background-color: #f0f4f8; /* Light background */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #23395d; /* Dark Blue navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #ffd700; /* Golden logo */
+}
+
+.navbar-brand:hover {
+    color: #fff; /* White hover */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Hover matches the logo */
+}
+
+/* Form Styles */
+.form-container {
+    margin-top: 50px;
+}
+
+.form-header {
+    background-color: #12232e; /* Deep Blue Header */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px 8px 0 0;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #12232e;
+}
+
+.form-control {
+    border: 1px solid #b0c4de; /* Light blue border */
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #23395d; /* Deep blue when focused */
+    box-shadow: 0px 0px 5px rgba(35, 57, 93, 0.5);
+}
+
+.btn-primary {
+    background-color: #4da8da; /* Bright Blue Button */
+    border-color: #4da8da;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #23395d; /* Darker blue on hover */
+    border-color: #23395d;
+}
+
+/* Footer */
+footer {
+    background-color: #23395d;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
